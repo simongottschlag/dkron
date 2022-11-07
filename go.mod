@@ -2,6 +2,9 @@ module github.com/distribworks/dkron/v3
 
 require (
 	cloud.google.com/go/pubsub v1.25.1
+	github.com/Azure/azure-sdk-for-go/sdk/azcore v1.0.0
+	github.com/Azure/azure-sdk-for-go/sdk/azidentity v1.0.0
+	github.com/Azure/azure-sdk-for-go/sdk/resourcemanager/containerinstance/armcontainerinstance v1.0.0
 	github.com/DataDog/datadog-go v4.8.3+incompatible // indirect
 	github.com/Microsoft/go-winio v0.5.1 // indirect
 	github.com/Shopify/sarama v1.36.0
